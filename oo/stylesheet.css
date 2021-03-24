@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'momcake';
+    src: url('momcakebold-wyona-webfont.woff2') format('woff2'),
+         url('momcakebold-wyona-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'momcake';
+    src: url('momcakethin-9y6az-webfont.woff2') format('woff2'),
+         url('momcakethin-9y6az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "momcake";
+    background-color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/*!!!!dev!!!!*/
+/* div{
+    border-style: solid;
+} */
+
+#top{
+    height: 100px;
+    background-color: bisque;
+    border-style: solid;
+}
+
+#logosect{
+    height: 100%;
+    width: min-content;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#accountsect{
+    height: 100%;
+    float: right;
+    display: table-cell;
+    width: 400px;
+    vertical-align: middle;
+}
+
+#accountsect div{
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    position: relative;
+}
+
+#accountsect input{
+    height: 95%;
+}
+
+
+#accounttop, #accountbottom{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 200px;
+}
+
+#registreercmd{
+    position: relative;
+    width: 70%;
+}
+
+#accountmiddle{
+    height: 20%
+}
+
+
+
+
+
+#middle{
+    height: auto;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#meterimg{
+    float: right;
+    width: 40%;
+}
+
+#slogan{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#slogan, #shorttext, #bottom p{
+    position: relative;
+    left: 20px;
+}
+
+#bottom a:link{
+color: blue;
+text-decoration: none;
+}
+
+
+
+#bottom{
+    height: 100px;
+}

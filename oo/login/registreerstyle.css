@@ -1,0 +1,49 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.form{
+	width:100%;
+	float:left;
+	position:fixed;
+	font-size:25px;
+	font-family: Arial, verdana;
+	line-height:44px;
+	height:90%;
+	z-index:2;
+	text-decoration: none;
+}
+.bannerlogo{
+	width: 20%;
+    position: relative;
+	left: 40%;
+	top: 5%
+}
+.accountarea{
+	width:20%;
+	position: relative;
+    left: 40%;
+	font-family: Arial, verdana;
+	line-height:90%;
+	height:90%;
+}
+.logintxt,.gegevenstxt{
+	width: 80%;
+	height: 5%;
+	position: relative;
+	top: 20%;
+	text-align: center;
+	left: 10%;
+}
+.gegevenstxt{
+    width: 38%;
+}
+.logincmd,.registreercmd{
+	width: 50%;
+	height: 5%;
+	position: relative;
+	top: 20%;
+	left: 25%;
+}

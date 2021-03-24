@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'momcake';
+    src: url('../momcakebold-wyona-webfont.woff2') format('woff2'),
+         url('../momcakebold-wyona-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+@font-face {
+    font-family: 'momcake';
+    src: url('../momcakethin-9y6az-webfont.woff2') format('woff2'),
+         url('../momcakethin-9y6az-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "momcake";
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/*!!!!dev!!!!*/
+/* #middle div{
+    border-style: solid;
+} */
+
+
+#top{
+    height: 100px;
+    background-color: bisque;
+    border-style: solid;
+    
+}
+
+#logosect, #datacmd{
+    height: 100%;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#logosect{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#datacmd{
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+    color: black;
+}
+#datacmd a:link{
+    color:black
+}
+#datacmd a:visited{
+    color:black
+}
+#innerinnderdatacmd{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+	font-size: 17pt;
+    float: left;
+}
+
+#datacmd:hover{
+    background-color: beige;
+}
+
+#accountsect{
+    height: 100%;
+    float: right;
+    display: table-cell;
+    width: 300px;
+    vertical-align: middle;
+}
+
+#accountsect div{
+    vertical-align: middle;
+    width: 300px;
+    position: relative;
+}
+
+#accountsect input{
+    height: 95%;
+}
+
+
+#accounttop, #accountbottom{
+    height: 30px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 200px;
+	font-size: 17pt;
+}
+
+#registreercmd{
+    position: relative;
+    width: 95%;
+}
+
+#accountmiddle{
+    height: 30%;
+	font-size: 17pt;
+}
