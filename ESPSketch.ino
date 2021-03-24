@@ -123,7 +123,7 @@ void ATTUpdate( int co2, float temp, float humid) // Update the sensor on the Al
   int httpResponseCode = 0;
 
   //update the CO2 value
-  serverPath = serverName + "/asset/IJKml06ofXyv1XzNjpT5SSMr/state"; // Set the serverpath to the full path
+  serverPath = serverName + "/asset/asset_id/state"; // Set the serverpath to the full path
   http.begin(serverPath.c_str()); // Start the http client at the specified serverpath
 
   http.addHeader("Authorization", "Bearer " + tokenstring);
@@ -143,7 +143,7 @@ void ATTUpdate( int co2, float temp, float humid) // Update the sensor on the Al
   http.end();
 
   //update the temperature value
-  serverPath = serverName + "/asset/eJMLavI8xtQNAMzBJSCPSpJF/state"; // Set the serverpath to the full path
+  serverPath = serverName + "/asset/asset_id/state"; // Set the serverpath to the full path
   http.begin(serverPath.c_str()); // Start the http client at the specified serverpath
 
   http.addHeader("Authorization", "Bearer " + tokenstring); // Add the authorization header with the device token
@@ -163,7 +163,7 @@ void ATTUpdate( int co2, float temp, float humid) // Update the sensor on the Al
   http.end();
 
   //update the humidity value
-  serverPath = serverName + "/asset/jVK9YjBjwS07Q9oMZzkJHDfo/state"; // Set the serverpath to the full path
+  serverPath = serverName + "/asset/asset_id/state"; // Set the serverpath to the full path
   http.begin(serverPath.c_str()); // Start the http client at the specified serverpath
 
   http.addHeader("Authorization", "Bearer " + tokenstring); // Add the authorization header with the device token
